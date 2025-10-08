@@ -1,0 +1,9 @@
+name: web-portfolio-test
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: DockerFile
+    ports:
+      - "5000:80"

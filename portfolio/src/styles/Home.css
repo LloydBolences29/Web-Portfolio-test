@@ -1,0 +1,292 @@
+@media (max-width: 767px) {
+  .home-left {
+    margin-bottom: 5rem;
+  }
+
+  .hero-info {
+    line-height: 1.5;
+  }
+
+  .lead {
+    padding: 1rem 0 0 0;
+  }
+  .home-container {
+    padding: 3rem 2rem;
+  }
+  .home-right {
+    position: relative;
+  }
+
+  .sticky-section-header {
+    position: sticky;
+    top: 0; /* Adjust for fixed nav height */
+    background: rgb(1, 1, 22) 100%;
+  }
+  .section-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  .hero-section {
+    margin: 2rem 0;
+  }
+
+  /* .mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  z-index: 1100;
+}
+  *
+
+.mobile-nav a {
+  display: none;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+  */
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .contact-icons {
+    margin: 2rem 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(226, 232, 240);
+    position: relative;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+  }
+
+  .experience .experience-date {
+    font-size: 0.9rem;
+    color: rgb(226, 232, 240);
+    align-content: start;
+    margin: 1rem 0 0 0;
+  }
+  .patientfirst-project {
+    margin: 1rem 0;
+  }
+   .cert{
+    margin-bottom: 2rem;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-left {
+    margin-bottom: 2rem;
+  }
+  img {
+    max-width: 100%;
+    margin: 1rem;
+  }
+
+  .contact-icons {
+    margin: 2rem 0;
+  }
+  .sticky-section-header {
+    position: relative;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .hero-info h1 {
+    font-size: 3.5rem;
+  }
+  .home-container {
+    padding: 5rem 4rem;
+  }
+  .section-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(226, 232, 240);
+    margin-bottom: 1rem;
+  }
+
+  .patientfirst-thumbnail {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .patientfirst-project {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+   .cert{
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+  }
+  /* a:hover::after {
+  width: 100%;
+  
+  
+} */
+  .home-container {
+    margin: 0;
+    padding: 0 4rem;
+  }
+
+  .mobile-nav a {
+    color: #999;
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: 3.5rem;
+    position: relative;
+    display: flex;
+    margin: 0.5rem;
+  }
+
+  .mobile-nav a::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0rem; /* start position */
+    transform: translateY(-50%);
+    width: 0; /* Initial width for animation */
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease, left 0.5s ease;
+    opacity: 0;
+  }
+
+  .mobile-nav a.active {
+    font-weight: bold;
+    color: #fff;
+    padding-left: 4rem; /* Shift actual text */
+  }
+
+  .mobile-nav a.active::before {
+    width: 2.5rem;
+    opacity: 1;
+    left: 1rem; /* Move underline visually to stay left of text */
+  }
+
+  .home {
+    display: flex;
+    position: relative;
+    gap: 5rem;
+  }
+
+  .home-left {
+    flex: 0.6;
+    position: relative;
+  }
+
+  .hero-info {
+    position: sticky;
+    top: 50px; /* or any offset you want */
+    bottom: 100px;
+    /* z-index: 10; optional, for layering */
+  }
+
+  .home-right {
+    flex: 1;
+  }
+
+  .sticky-section-header {
+    position: relative;
+  }
+
+  .section-name {
+    color: rgb(226, 232, 240);
+  }
+  .experience {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 3rem 0;
+    gap: 3rem;
+  }
+
+  .experience-content {
+    flex: 1;
+    color: rgb(226, 232, 240);
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .experience-date {
+    flex: 1;
+    color: rgb(226, 232, 240);
+    width: 5rem;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+    height: 100vh;
+  }
+  .certifications {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+    height: 100vh;
+  }
+  .cert{
+    margin-bottom: 2rem;
+  }
+  
+
+  section{
+    margin: 3rem 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+  }
+
+  footer {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(1, 1, 22) 100%;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
