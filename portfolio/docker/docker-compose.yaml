@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: <account_id>.dkr.ecr.<region>.amazonaws.com/web-portfolio-test-app:latest
+    ports:
+      - "5000:80"
+    restart: always
