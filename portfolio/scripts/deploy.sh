@@ -1,10 +1,9 @@
 #!/bin/bash
 
-sudo -i bash <<EOF
 echo "***********************************"
 echo "Navigate to the docker folder"
 echo "***********************************"
-cd /home/ubuntu/web-app/Web-Portfolio-test/portfolio
+cd /home/ubuntu/web-app/Web-Portfolio-test/portfolio/docker 
 
 echo "***********************************"
 echo "Login to AWS ECR"
