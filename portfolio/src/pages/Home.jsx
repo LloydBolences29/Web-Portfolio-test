@@ -22,7 +22,7 @@ const Home = () => {
               <h2 className="text-primary">Information Technology</h2>
               <p className="lead">
                 Passionate for building solutions to tech-related challenges
-                mainly using MERN Stack. Loves watching anime, playing video games, and playing basketball.
+                mainly using MERN Stack.
               </p>
 
               <div className="mobile-nav-container">
