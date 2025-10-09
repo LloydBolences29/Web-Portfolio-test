@@ -8,8 +8,11 @@ WORKDIR /app
 # Copy only the React app from your portfolio folder
 COPY portfolio/package*.json ./
 RUN apk add --no-cache python3 make g++
+
 RUN npm install -g npm@11.6.2
-RUN npm install
+
+RUN npm install --legacy-peer-deps
+
 
 
 # Copy the rest of the React app source
