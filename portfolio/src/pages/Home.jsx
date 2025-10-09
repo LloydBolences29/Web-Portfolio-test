@@ -24,7 +24,7 @@ const Home = () => {
                 Passionate for building solutions to tech-related challenges
                 mainly using MERN Stack. Aspiring Full-Stack Developer or
                 Programmer. Love to learn new technologies and continuously
-                improve my skills. Another edit for testing my CI/CD pipelines.
+                improve my skills. Another edit for testing my CI/CD pipelines. Another edit to push
               </p>
               <p className="lead">
                 Based in the Philippines 🇵🇭 | Open to all foreign work opportunities
