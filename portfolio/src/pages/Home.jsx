@@ -25,7 +25,7 @@ const Home = () => {
                 mainly using MERN Stack. Aspiring Full-Stack Developer or
                 Programmer. Love to learn new technologies and continuously
                 improve my skills. Another edit for testing my CI/CD pipelines. Another edit to push. 
-                Another edit for pushing. This time i added the iam:PassRole. Another push. This time i think it will work. HAHAHA
+                Another edit for pushing. This time i added the iam:PassRole. Another push. This time i think it will work. HAHAHA please work
               </p>
               <p className="lead">
                 Based in the Philippines 🇵🇭 | Open to all foreign work opportunities
