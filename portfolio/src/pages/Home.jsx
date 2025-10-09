@@ -23,13 +23,11 @@ const Home = () => {
               <p className="lead">
                 Passionate for building solutions to tech-related challenges
                 mainly using MERN Stack. Aspiring Full-Stack Developer or
-                Programmer. Love to learn new technologies and continuously
-                improve my skills. Another edit for testing my CI/CD pipelines. Another edit to push. 
-                Another edit for pushing. This time i added the iam:PassRole. Another push. This time i think it will work. HAHAHA please work
+                Programmer. it worked hahaha
               </p>
-              <p className="lead">
+              {/* <p className="lead">
                 Based in the Philippines 🇵🇭 | Open to all foreign work opportunities
-              </p>
+              </p> */}
 
               <div className="mobile-nav-container">
                 <nav className="mobile-nav">
