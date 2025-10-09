@@ -22,7 +22,11 @@ const Home = () => {
               <h2 className="text-primary">Information Technology</h2>
               <p className="lead">
                 Passionate for building solutions to tech-related challenges
-                mainly using MERN Stack.
+                mainly using MERN Stack. Aspiring Full-Stack Developer or
+                Programmer.
+              </p>
+              <p className="lead">
+                Based in the Philippines 🇵🇭 | Open to all foreign work opportunities
               </p>
 
               <div className="mobile-nav-container">
